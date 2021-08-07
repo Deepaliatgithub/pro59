@@ -1,0 +1,58 @@
+head {
+    text-align: right;
+    font-size: 50px;
+}
+
+body {
+    background: chocolate;
+    text-align: center;
+
+    padding-right: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+img {
+    width: 150px;
+    text-align: center;
+}
+
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    position:static;
+    z-index: 10;
+    text-align: left;
+    display: inline;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.links:hover {
+
+    background-color: dodgerblue;
+}
+
+
+#navigation li {
+
+    display: inline;
+}
+
+
+.links {
+
+    display: inline;
+
+}
